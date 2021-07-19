@@ -43,4 +43,4 @@ jobs:
           uses: docker/build-push-action@v2 # Выполняет push образа в DockerHub 
           with:
             push: true
-            tags: docker push h0diush/infra_action:latest
+            tags: h0diush/infra_action:latest
